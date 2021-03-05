@@ -1,0 +1,15 @@
+# ignore .terraform folder
+**/.terraform/*
+
+# ignore .tfstate file
+*.tfstate
+*.tfstate.*
+
+# ignore Mac/OSX system file, with the folder metadata
+.DS_Store
+
+# ignore .tfvars
+# *.tfvars
+
+# ignore crash log
+*.log
